@@ -54,15 +54,50 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# upnp插件
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+# 应用过滤
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+##DDNS
+PACKAGES="$PACKAGES ddns-scripts"
+PACKAGES="$PACKAGES ddns-scripts-services"
+PACKAGES="$PACKAGES ddns-scripts_aliyun"
+PACKAGES="$PACKAGES luci-app-ddns"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+##zerotier-vpn
+PACKAGES="$PACKAGES luci-app-zerotier"
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+##网络唤醒
+PACKAGES="$PACKAGES etherwake"
+PACKAGES="$PACKAGES luci-app-wol"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+##微信推送
+PACKAGES="$PACKAGES luci-app-wechatpush"
+PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
+##LLDP发现
+PACKAGES="$PACKAGES luci-i18n-lldpd-zh-cn"
+PACKAGES="$PACKAGES luci-app-lldpd"
+##smartdns
+PACKAGES="$PACKAGES luci-app-smartdns"
+PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
+##acme
+PACKAGES="$PACKAGES luci-app-acme"
+PACKAGES="$PACKAGES luci-i18n-acme-zh-cn"
+##syncthing
+PACKAGES="$PACKAGES luci-app-syncthing"
+PACKAGES="$PACKAGES luci-i18n-syncthing-zh-cn"
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
