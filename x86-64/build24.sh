@@ -51,9 +51,9 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # 防火墙 #
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # argon主题 #
-PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+#PACKAGES="$PACKAGES luci-theme-argon"
+#PACKAGES="$PACKAGES luci-app-argon-config"
+#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 # 软件包管理 #
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
