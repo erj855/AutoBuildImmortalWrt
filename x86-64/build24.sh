@@ -46,15 +46,22 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始构建固件..."
 # 定义所需安装的包列表 下列插件你都可以自行删减
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
+# 磁盘管理 #
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+# 防火墙 #
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
+# argon主题 #
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
+# 软件包管理 #
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
+# 终端 #
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# VPN-passwall#
+#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# VPN-openclash #
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
@@ -63,6 +70,37 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+
+# DDNS-GO
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+
+# zerotier
+PACKAGES="$PACKAGES luci-app-zerotier"
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+
+# upnp
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+
+# smartdns
+PACKAGES="$PACKAGES luci-app-smartdns"
+PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
+
+# 应用过滤
+#PACKAGES="$PACKAGES luci-app-appfilter"
+#PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+
+# 微信推送
+PACKAGES="$PACKAGES luci-app-wechatpush"
+PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
+
+# 网络唤醒
+PACKAGES="$PACKAGES luci-app-wol"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+
+
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
