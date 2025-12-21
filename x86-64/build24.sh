@@ -89,8 +89,8 @@ PACKAGES="$PACKAGES luci-app-smartdns"
 PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
 
 # 应用过滤
-#PACKAGES="$PACKAGES luci-app-appfilter"
-#PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 
 # 微信推送
 PACKAGES="$PACKAGES luci-app-wechatpush"
@@ -100,6 +100,9 @@ PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
 PACKAGES="$PACKAGES luci-app-wol"
 PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 
+# 监控面板
+PACKAGES="$PACKAGES luci-app-netdata"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 
 
 # ======== shell/custom-packages.sh =======
