@@ -104,6 +104,10 @@ PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 PACKAGES="$PACKAGES luci-app-netdata"
 PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 
+# 带宽监控
+PACKAGES="$PACKAGES luci-app-nlbwmon"
+PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
