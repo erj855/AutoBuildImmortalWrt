@@ -63,7 +63,7 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # VPN-openclash #
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # 文件共享 #
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
@@ -105,8 +105,8 @@ PACKAGES="$PACKAGES luci-app-netdata"
 PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 
 # 带宽监控
-PACKAGES="$PACKAGES luci-app-nlbwmon"
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+#PACKAGES="$PACKAGES luci-app-nlbwmon"
+#PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 
 
 # ======== shell/custom-packages.sh =======
