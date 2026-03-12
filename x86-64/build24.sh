@@ -67,7 +67,7 @@ PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
 #upnp
 PACKAGES="$PACKAGES luci-app-upnp luci-i18n-upnp-zh-cn"
 #netspeedtest
-PACKAGES="$PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-zh-cn"
+#PACKAGES="$PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-zh-cn"
 #ddns-go
 PACKAGES="$PACKAGES luci-app-ddns-go luci-i18n-ddns-go-zh-cn"
 
