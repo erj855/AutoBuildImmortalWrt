@@ -57,8 +57,20 @@ PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 #PACKAGES="$PACKAGES xray-core hysteria luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-
 PACKAGES="$PACKAGES openssh-sftp-server"
+#微信推送
+PACKAGES="$PACKAGES luci-app-wechatpush luci-i18n-wechatpush-zh-cn"
+#ZEROTIER
+PACKAGES="$PACKAGES luci-app-zerotier luci-i18n-zerotier-zh-cn"
+#网络唤醒
+PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
+#upnp
+PACKAGES="$PACKAGES luci-app-upnp luci-i18n-upnp-zh-cn"
+#netspeedtest
+PACKAGES="$PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-zh-cn"
+#ddns-go
+PACKAGES="$PACKAGES luci-app-ddns-go luci-i18n-ddns-go-zh-cn"
+
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
