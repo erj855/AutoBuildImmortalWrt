@@ -62,8 +62,8 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 
 ####260608添加####
 #家长控制
-PACKAGES="$PACKAGES luci-app-appfilter"
-PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+#PACKAGES="$PACKAGES luci-app-appfilter"
+#PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 #微信推送
 PACKAGES="$PACKAGES luci-app-wechatpush luci-i18n-wechatpush-zh-cn"
 #ZEROTIER
