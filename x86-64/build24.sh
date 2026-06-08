@@ -59,6 +59,25 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+
+####260608添加####
+#家长控制
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+#微信推送
+PACKAGES="$PACKAGES luci-app-wechatpush luci-i18n-wechatpush-zh-cn"
+#ZEROTIER
+PACKAGES="$PACKAGES luci-app-zerotier luci-i18n-zerotier-zh-cn"
+#网络唤醒
+PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
+#upnp
+PACKAGES="$PACKAGES luci-app-upnp luci-i18n-upnp-zh-cn"
+
+#ddns-go
+PACKAGES="$PACKAGES luci-app-ddns-go luci-i18n-ddns-go-zh-cn"
+############
+
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
