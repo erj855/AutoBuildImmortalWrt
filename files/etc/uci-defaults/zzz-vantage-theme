@@ -1,0 +1,8 @@
+#!/bin/sh
+# 确保 Vantage 成为默认主题。
+# Vantage 自带的 30_luci-theme-vantage 会注册并选中主题，但本项目默认打包
+# luci-theme-argon，其 uci-defaults 可能在之后执行并覆盖。此脚本按字母序排最后，
+# 保证最终选中 Vantage。执行成功后系统会自动删除本脚本。
+uci set luci.main.mediaurlbase=/luci-static/vantage
+uci commit luci
+exit 0

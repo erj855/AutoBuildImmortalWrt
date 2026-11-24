@@ -191,3 +191,7 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wifischedule-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
+
+# ==================== Vantage 主题 (25.12 / apk) ====================
+# 下载官方发布的 .apk 并加入构建；不需改任何 build 脚本或 workflow。
+. shell/vantage-theme.sh apk
