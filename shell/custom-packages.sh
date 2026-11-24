@@ -215,3 +215,7 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-zerotier-zh-cn"
+
+# ==================== Vantage 主题 (24.10 / ipk) ====================
+# 下载官方发布的 .ipk 并加入构建；不需改任何 build 脚本或 workflow。
+. shell/vantage-theme.sh ipk
